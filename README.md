@@ -4,6 +4,11 @@ Neovim plugin that uses [Gitlab CI lint
 API](https://docs.gitlab.com/ee/api/lint.html#validate-a-ci-yaml-configuration-with-a-namespace)
 to validate your Gitlab CI Pipeline.
 
+
+https://github.com/sbulav/validate-gitlab-ci.nvim/assets/28604639/043a421f-3b84-49ec-9588-f6f0ce4d2cb3
+
+
+
 As `/CI/lint` endpoint is deprecated in [Gitlab
 16.0](https://docs.gitlab.com/ee/update/deprecations.html?removal_milestone=16.0#post-cilint-api-endpoint-deprecated)
 this plugin uses `/projects/:id/ci/lint` to validate the pipeline.
