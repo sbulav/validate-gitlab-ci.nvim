@@ -76,7 +76,7 @@ local function validate_job()
   local url = "https://"
     .. git_info.host
     .. "/api/v4/projects/"
-    .. git_info.owner
+    .. string.gsub(git_info.owner, "/", "%%2F")
     .. "%2F"
     .. git_info.repo
     .. "/ci/lint"
